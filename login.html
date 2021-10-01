@@ -1,0 +1,37 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>login</title>
+<link rel="stylesheet" type="text/css" href="login.css"/>
+<script src="login.js"></script>
+</head>
+<body>
+<div id="holder"><a href="https://www.co.in"><img src="images/22.jpg" width="200px" height="100px"/></a>
+	 <div id="header">
+     
+	<ul>
+    	<li><a href="login.html">Login</a></li>
+    	<li><a href="overview.html">Overview</a></li>
+    	<li><a href="rest/index.html">Restaurant</a></li>
+    	<li><a href="book.html">Booking</a></li>
+        <li><a href="index.html">Home</a></li>
+    	</ul>
+    </div><!--header -->
+<div id="login">
+<br>
+	<h1> StaffLogin</h1>
+  		<div id="p"><br><br><br>
+	<form action="manager.php" method="post" >
+<label for="number">Staff ID:</label>&nbsp;&nbsp;
+            <input id="username" name="username" placeholder="Staff ID" required="" type="text"> <br><br>
+	&nbsp;&nbsp;&nbsp;
+<label for="number">PASSWORD:</label> 
+            <input id="password" name="password" placeholder="Id" required="" type="password"> <br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="submit" name="submit" value="login" onclick="validate()"/>
+</form>
+        </div><!--p-->
+</div><!--login-->
+</div><!--holder-->
+</body>
+</html>
